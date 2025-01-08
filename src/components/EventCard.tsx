@@ -11,6 +11,7 @@ import { CalendarIcon, MapPinIcon } from "lucide-react";
 
 interface EventCardProps {
   event: {
+    _id: string;
     name: string;
     price: number;
     eventDate: number;
